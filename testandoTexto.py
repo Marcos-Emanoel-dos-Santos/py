@@ -1,0 +1,15 @@
+# frase[começo:fim:de quantos em quantos]
+# frase.count('caractere', inicio, fim)
+frase = "Tentando fatiar e analisar strings"
+print(len(frase))
+print(frase.count('a', 0, 13))
+print(frase.find('ar'))
+print('fatiar' in frase)
+nova_frase = frase.replace("Tentando", "Conseguindo")
+print(nova_frase)
+print(nova_frase.capitalize())
+print(nova_frase.title())
+frase = frase.split()
+print(frase)
+print('-'.join(frase))
+print(frase[0][3])
